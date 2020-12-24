@@ -1,0 +1,11 @@
+/* miniprogram/pages/editUserInfo/avatarUrl/avatarUrl.wxss */
+.diy {
+    margin-top: 20rpx;
+}
+image {
+    width: 200rpx;
+    height: 200rpx;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}

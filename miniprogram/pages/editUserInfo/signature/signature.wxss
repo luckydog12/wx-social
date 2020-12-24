@@ -1,0 +1,6 @@
+/* miniprogram/pages/editUserInfo/signature/signature.wxss */
+.signature {
+    border: 1px solid #b4b5b6;
+    width: 100%;
+    margin-top: 20rpx;
+}

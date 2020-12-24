@@ -1,0 +1,5 @@
+<!--miniprogram/pages/editUserInfo/weChat/weChat.wxml-->
+<button bindtap="handleBtn">保存微信号</button>
+<input type="text" 
+  value="{{wxNumber}}"
+  bindinput="handleText"/>

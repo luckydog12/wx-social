@@ -1,0 +1,8 @@
+/* miniprogram/pages/editUserInfo/name/name.wxss */
+
+.diy {
+    margin-top: 20rpx;
+}
+input {
+    border: 1px solid #b4b5b6;
+}

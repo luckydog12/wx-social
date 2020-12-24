@@ -1,0 +1,8 @@
+var wordSplit = function(word) {
+    if(word.length > 10) {
+        word = word.substring(0, 8) + '...'
+    }
+    return word
+}
+
+module.exports.wordSplit = wordSplit

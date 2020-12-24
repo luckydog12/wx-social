@@ -1,0 +1,9 @@
+<!--miniprogram/pages/editUserInfo/signature/signature.wxml-->
+<button bindtap="handleBtn">保存个性签名</button>
+<!-- <input type="text"/> -->
+<textarea class="signature" 
+  cols="30" 
+  rows="10" 
+  value="{{signature}}"
+  bindinput="handleText">
+</textarea>

@@ -1,0 +1,40 @@
+<!--miniprogram/pages/editUserInfo/editUserInfo.wxml-->
+<view class="editUserInfo-list">
+    <navigator url="./avatarUrl/avatarUrl" open-type="navigate">
+      <view class="editUserInfo-list-item">
+          <text>修改头像</text>
+          <text class="iconfont icon-iconfontjiantou5"></text>
+      </view>
+    </navigator>
+    <navigator url="./name/name" open-type="navigate">
+      <view class="editUserInfo-list-item">
+          <text>修改昵称</text>
+          <text class="iconfont icon-iconfontjiantou5"></text>
+      </view>
+    </navigator>
+    <navigator url="./signature/signature" open-type="navigate">
+      <view class="editUserInfo-list-item">
+          <text>修改个性签名</text>
+          <text class="iconfont icon-iconfontjiantou5"></text>
+      </view>
+    </navigator>
+    <navigator url="./location/location" open-type="navigate">
+      <view class="editUserInfo-list-item">
+          <text>共享位置</text>
+          <text class="iconfont icon-iconfontjiantou5"></text>
+      </view>
+    </navigator>
+    <navigator url="./phone/phone" open-type="navigate">
+      <view class="editUserInfo-list-item">
+          <text>设置手机号<text class="editUserInfo-list-tip"> (仅好友可查看)</text></text>
+          <text class="iconfont icon-iconfontjiantou5"></text>
+      </view>
+    </navigator>
+    <navigator url="./weChat/weChat" open-type="navigate">
+      <view class="editUserInfo-list-item">
+          <text>设置微信号<text class="editUserInfo-list-tip"> (仅好友可查看)</text></text>
+          <text class="iconfont icon-iconfontjiantou5"></text>
+      </view>
+    </navigator>
+    
+</view>
